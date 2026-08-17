@@ -1,0 +1,23 @@
+export function WhySiami({ items }) {
+    return (React.createElement("div", { className: "why-grid" },
+        React.createElement("div", null,
+            React.createElement("div", { className: "sec-head", style: { marginBottom: 0 } },
+                React.createElement("span", { className: "tag" }, "Why Siami"),
+                React.createElement("h2", null, "Delivery that behaves like the networks we operate")),
+            React.createElement("div", { className: "why-list" }, items.map((item) => (React.createElement("div", { className: "why-item", key: item.number },
+                React.createElement("div", { className: "why-num" }, item.number),
+                React.createElement("div", null,
+                    React.createElement("h4", null, item.title),
+                    React.createElement("p", null, item.description))))))),
+        React.createElement("div", { className: "why-panel" },
+            React.createElement("span", { className: "tag" }, "SIGNAL / STATUS"),
+            React.createElement("h3", null, "One point of contact. Full-stack accountability."),
+            React.createElement("p", null, "Whether you need one RF specialist for a migration sprint or a turnkey NOC transformation, Siami LLC scopes, staffs, and delivers under a single agreement."),
+            React.createElement("div", { className: "signal" },
+                React.createElement("div", { style: { height: '40%', animationDelay: '0s' } }),
+                React.createElement("div", { style: { height: '70%', animationDelay: '0.15s' } }),
+                React.createElement("div", { style: { height: '100%', animationDelay: '0.3s' } }),
+                React.createElement("div", { style: { height: '55%', animationDelay: '0.45s' } }),
+                React.createElement("div", { style: { height: '85%', animationDelay: '0.6s' } }),
+                React.createElement("div", { style: { height: '35%', animationDelay: '0.75s' } })))));
+}
