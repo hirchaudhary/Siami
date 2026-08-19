@@ -10,7 +10,7 @@ export function Header() {
     <header>
       <nav className="wrap">
         <a href="#">
-          <img className="brand-mark" src="./siami-logo.png" alt="Siami logo" />
+          <img className="brand-mark" src="/siami-logo.png" alt="Siami logo" />
         </a>
         <div className={`navlinks${menuOpen ? ' open' : ''}`} id="navlinks">
           <a href="#models" onClick={closeMenu}>Engagement Models</a>
