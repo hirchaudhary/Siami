@@ -1,5 +1,3 @@
-declare const React: any;
-
 interface Stat {
   value: string;
   label: string;

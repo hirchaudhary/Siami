@@ -1,5 +1,3 @@
-declare const React: any;
-
 interface WhyItem {
   number: string;
   title: string;

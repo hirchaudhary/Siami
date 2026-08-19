@@ -1,7 +1,7 @@
-declare const React: any;
+import { useState } from 'react';
 
 export function Header() {
-  const [menuOpen, setMenuOpen] = React.useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);

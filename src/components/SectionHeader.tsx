@@ -1,5 +1,3 @@
-declare const React: any;
-
 interface SectionHeaderProps {
   tag: string;
   title: string;

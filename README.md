@@ -25,39 +25,34 @@ index.html                       # HTML template
 
 ## Technologies
 
-- **React 18** (via CDN with classic JSX transform)
+- **React 18** with JSX automatic transform
 - **TypeScript** for type safety
+- **Vite** for fast development and optimized builds
 - **Custom CSS** for styling
 
 ## Installation & Setup
 
 ```bash
-# Install dependencies (if needed)
+# Install dependencies
 npm install
 
-# Build the TypeScript source
+# Start development server (hot reload on http://localhost:3000)
+npm run dev
+
+# Build for production
 npm run build
 
-# Start the development server
-npm start
+# Preview production build
+npm run preview
 ```
-
-The app will be available at `http://localhost:3000`
-
-## Build
-
-```bash
-npm run build
-```
-
-Compiles TypeScript files from `src/` to the `dist/` directory using ES2020 targets.
 
 ## Development
 
 The project uses:
-- Classic JSX transform (requires `declare const React: any` in each JSX file)
-- TypeScript without strict mode for flexibility
-- HTTP server on port 3000 for development
+- React 18 with automatic JSX transform (no need to import React in components)
+- Vite for HMR (Hot Module Replacement) during development
+- TypeScript for type safety
+- Modern ES modules throughout
 
 ## Features
 

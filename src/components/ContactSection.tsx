@@ -1,6 +1,4 @@
-declare const React: any;
-
-import { ContactForm } from './ContactForm.js';
+import { ContactForm } from './ContactForm';
 
 export function ContactSection() {
   return (

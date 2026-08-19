@@ -1,13 +1,11 @@
-declare const React: any;
-
-import { About } from './About.js';
-import { ContactSection } from './ContactSection.js';
-import { EngagementModels } from './EngagementModels.js';
-import { Header } from './Header.js';
-import { Hero } from './Hero.js';
-import { PracticeAreas } from './PracticeAreas.js';
-import { SectionHeader } from './SectionHeader.js';
-import { WhySiami } from './WhySiami.js';
+import { About } from './About';
+import { ContactSection } from './ContactSection';
+import { EngagementModels } from './EngagementModels';
+import { Header } from './Header';
+import { Hero } from './Hero';
+import { PracticeAreas } from './PracticeAreas';
+import { SectionHeader } from './SectionHeader';
+import { WhySiami } from './WhySiami';
 
 interface Stat { value: string; label: string }
 interface ServiceItem { title: string; description: string }

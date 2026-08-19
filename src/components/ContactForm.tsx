@@ -1,5 +1,3 @@
-declare const React: any;
-
 export function ContactForm() {
   const handleSubmit = (event: { preventDefault: () => void; currentTarget: HTMLFormElement }) => {
     event.preventDefault();

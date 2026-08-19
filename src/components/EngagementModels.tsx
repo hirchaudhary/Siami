@@ -1,5 +1,3 @@
-declare const React: any;
-
 interface ServiceItem {
   title: string;
   description: string;
