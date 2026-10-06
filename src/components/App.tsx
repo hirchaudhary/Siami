@@ -12,36 +12,36 @@ interface ServiceItem { title: string; description: string }
 interface WhyItem { number: string; title: string; description: string }
 
 const stats: Stat[] = [
-  { value: '15+', label: 'YRS TELECOM / RF DELIVERY' },
   { value: '5', label: 'ENGAGEMENT MODELS' },
-  { value: '5', label: 'PRACTICE AREAS' },
-  { value: '1000s', label: 'SITES / NODES MANAGED' },
+  { value: '3', label: 'CORE SERVICE PILLARS' },
+  { value: '100%', label: 'DESIGN-LED APPROACH' },
+  { value: '4W', label: 'FROM DISCOVERY TO LAUNCH' },
 ];
 
 const engagementModels: ServiceItem[] = [
-  { title: 'Individual Consulting', description: 'A single senior specialist embedded directly with your team for hands-on delivery, design review, or advisory work.' },
-  { title: 'Corp-to-Corp (C2C)', description: 'Contract engagements between Siami LLC and your organization, with consultants deployed under our entity.' },
-  { title: 'Turnkey Project', description: 'Fixed-scope, fixed-outcome delivery — Siami owns planning, execution, and results against an agreed statement of work.' },
-  { title: 'Time & Expense', description: 'Flexible T&E billing for evolving scopes, ideal for exploratory work or programs without a fixed end state.' },
-  { title: 'Staff Augmentation', description: 'We source and provide vetted consultants who plug directly into your existing team and reporting structure.' },
+  { title: 'Discovery Workshop', description: 'We clarify your business goals, audience, and positioning so the design direction is rooted in real strategy.' },
+  { title: 'Brand Direction', description: 'We shape your visual language, messaging, and tone to make the website feel consistent with your business and personality.' },
+  { title: 'UX / UI Design', description: 'We design clear, conversion-focused experiences that make your offers easy to understand and easy to trust.' },
+  { title: 'Website Development', description: 'We build polished, responsive websites that are fast, reliable, and easy to maintain as your business grows.' },
+  { title: 'Launch Support', description: 'We refine the details after launch, optimize the experience, and help keep the site aligned with your goals.' },
 ];
 
 const practiceAreas: ServiceItem[] = [
-  { title: 'Telecom', description: 'RAN, RF, and 5G/LTE engineering — KPI monitoring, performance validation, migration programs, and fault isolation across large multi-vendor networks.' },
-  { title: 'Software', description: 'Cloud-native platforms, observability tooling, and integration work supporting service assurance and operational systems.' },
-  { title: 'AI', description: 'Applied AI for network operations — anomaly detection, predictive fault isolation, and automation layered onto existing NOC workflows.' },
-  { title: 'Consulting', description: 'Program and project management for large-scale operational improvement initiatives — incident management, NOC design, and process transformation.' },
-  { title: 'Staffing', description: 'Sourcing and placing vetted telecom and software talent — from single specialists to full delivery teams — matched to your program\'s pace.' },
+  { title: 'Brand Strategy', description: 'Positioning, messaging, and design direction that helps your business communicate clearly and feel memorable.' },
+  { title: 'Web Design', description: 'High-converting landing pages and full website concepts designed to look polished and feel intuitive.' },
+  { title: 'UX Design', description: 'User journeys, information architecture, and interface decisions built around how real visitors engage with your brand.' },
+  { title: 'Development', description: 'Responsive front-end builds, component systems, and clean implementation that turns design into a working product.' },
+  { title: 'Optimization', description: 'Refinement, improvements, and launch support to keep your website evolving with your business needs.' },
 ];
 
 const whyItems: WhyItem[] = [
-  { number: '01', title: 'Operator-grade experience', description: 'Our consultants have run service assurance, NOC, and RF programs at carrier scale — not just advised on them.' },
-  { number: '02', title: 'Flexible commercial structure', description: 'C2C, T&E, turnkey, or staff augmentation — we adapt to your procurement model, not the other way around.' },
-  { number: '03', title: 'DFW-rooted, nationally deployed', description: 'Based in the DFW metro with the reach to staff and deliver programs across markets.' },
-  { number: '04', title: 'Fault-isolation mindset', description: 'We diagnose root causes before proposing scope — the same discipline used to isolate faults across thousands of network sites.' },
+  { number: '01', title: 'Design-first process', description: 'We start with business context and visual direction so the site tells your story with clarity and intent.' },
+  { number: '02', title: 'Built around your brand', description: 'Every visual decision is shaped around your positioning, goals, and the personal touch you want reflected online.' },
+  { number: '03', title: 'Hands-on collaboration', description: 'You work closely with a partner who listens, iterates, and shapes the site around what matters most to you.' },
+  { number: '04', title: 'Launch-ready execution', description: 'We translate strategy and design into a polished, responsive website that is ready to perform.' },
 ];
 
-const aboutTags = ['RAN / RF Engineering', '5G & LTE Migration', 'NOC & Incident Mgmt', 'Service Assurance', 'Cloud-Native Ops'];
+const aboutTags = ['Brand Strategy', 'UX / UI Design', 'Responsive Web Design', 'Front-End Development', 'Launch Support'];
 
 export function App() {
   return (
@@ -53,8 +53,8 @@ export function App() {
         <div className="wrap">
           <SectionHeader
             tag="How We Engage"
-            title="Five ways to bring Siami onto your program"
-            description="Every engagement is scoped to how your team actually needs to work — whether that&apos;s one specialist or a fully staffed delivery unit."
+            title="Five ways to bring Siami into your next website project"
+            description="Every engagement is shaped around your business, your goals, and how much support you want at each step of the build."
           />
           <EngagementModels models={engagementModels} />
         </div>
@@ -63,9 +63,9 @@ export function App() {
       <section className="section section-alt" id="practices">
         <div className="wrap">
           <SectionHeader
-            tag="Where We Work"
-            title="Practice areas built on real network experience"
-            description="From RAN engineering to cloud-native software delivery, our practice areas reflect the full stack our consultants have actually operated in."
+            tag="What We Do"
+            title="Design and development support built around your business"
+            description="From brand clarity to polished launch, our service areas are focused on creating a website that feels intentional, modern, and distinctly yours."
           />
           <PracticeAreas practices={practiceAreas} />
         </div>
@@ -87,8 +87,8 @@ export function App() {
 
       <footer>
         <div className="wrap">
-          <span>© 2026 Siami LLC. All rights reserved.</span>
-          <span className="mono">TELECOM · SOFTWARE · AI · CONSULTING · STAFFING</span>
+          <span>© 2026 Siami. All rights reserved.</span>
+          <span className="mono">WEB DESIGN · UX · DEVELOPMENT · BRAND</span>
         </div>
       </footer>
     </div>

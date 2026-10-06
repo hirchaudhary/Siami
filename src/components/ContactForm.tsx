@@ -18,13 +18,13 @@ export function ContactForm() {
         <input id="email" type="email" placeholder="you@company.com" required />
       </div>
       <div className="field">
-        <label htmlFor="model">Preferred Engagement Model</label>
+        <label htmlFor="model">Project Scope</label>
         <select id="model">
-          <option>Individual Consulting</option>
-          <option>Corp-to-Corp (C2C)</option>
-          <option>Turnkey Project</option>
-          <option>Time &amp; Expense</option>
-          <option>Staff Augmentation</option>
+          <option>Brand + Messaging</option>
+          <option>Website Design</option>
+          <option>UX / UI Design</option>
+          <option>Website Development</option>
+          <option>Full Website Refresh</option>
           <option>Not sure yet</option>
         </select>
       </div>

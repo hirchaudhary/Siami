@@ -14,7 +14,7 @@ export function WhySiami({ items }: WhySiamiProps) {
       <div>
         <div className="sec-head" style={{ marginBottom: 0 }}>
           <span className="tag">Why Siami</span>
-          <h2>Delivery that behaves like the networks we operate</h2>
+          <h2>Thoughtful design and execution from strategy to launch</h2>
         </div>
         <div className="why-list">
           {items.map((item) => (
@@ -30,8 +30,8 @@ export function WhySiami({ items }: WhySiamiProps) {
       </div>
       <div className="why-panel">
         <span className="tag">SIGNAL / STATUS</span>
-        <h3>One point of contact. Full-stack accountability.</h3>
-        <p>Whether you need one RF specialist for a migration sprint or a turnkey NOC transformation, Siami LLC scopes, staffs, and delivers under a single agreement.</p>
+        <h3>Personalized design. Clear direction. Better conversion.</h3>
+        <p>We help shape a digital presence that reflects your business and your voice, rather than a generic template that could belong to anyone.</p>
         <div className="signal">
           <div style={{ height: '40%', animationDelay: '0s' }} />
           <div style={{ height: '70%', animationDelay: '0.15s' }} />

@@ -1,6 +1,6 @@
-# Siami LLC — Telecom & Software Consulting
+# Siami — Telecom & Software Consulting
 
-A React-based website for Siami LLC, a DFW-area consulting and staffing firm specializing in telecom, software, AI, consulting, and staffing engagements.
+A React-based website for Siami, a DFW-area consulting and staffing firm specializing in telecom, software, AI, consulting, and staffing engagements.
 
 ## Project Structure
 

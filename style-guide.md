@@ -1,4 +1,4 @@
-# Siami LLC — Website Style Guide
+# Siami — Website Style Guide
 
 Raw design specs for the site: fonts, sizes, colors, spacing. Use this as the reference sheet for future edits or handing off to a designer/developer.
 
@@ -126,5 +126,5 @@ IBM Plex Mono: 400, 500
 
 - **Icon:** two circles (r=10.5, 72×72 viewBox), coral `#FF6B4A` (Sia) and amber `#E8A94C` (Mira), joined by a 2.5px connecting line, meeting at a small navy center dot (r=3).
 - **Wordmark:** "SIA" in Coral 500, "MI" in Amber 400, set in Space Grotesk 700.
-- **Suffix:** "LLC" in IBM Plex Mono 400, ~45% opacity white (on dark) / Slate 600 (on light).
+- **Suffix:** none; the brand wordmark is kept as “Siami” in the primary logo treatment.
 - **Nav size:** 42px icon / 26px wordmark (desktop), 34px icon / 21px wordmark (mobile).
